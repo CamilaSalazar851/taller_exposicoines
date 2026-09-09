@@ -6,3 +6,20 @@ CREATE table empleado(
 	id_departamento INT not null,
 	fecha_contratacion date,
 	foreing key (id_departamento) references departamento(id_departamento)
+);
+
+create table departamento(
+	id_departamento int primary key auto_increment,
+	nombre varchar (50) not null
+	);
+
+	
+
+create table productos_prueba()
+	id int primary key auto_increment,
+	nombre varchar (50) not null
+);
+
+
+ALTER TABLE producto_prueba ADD COLUNM precio varchar (10,2)
+drop table productos_prueba;
