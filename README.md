@@ -1,3 +1,4 @@
+use pruebas;
 CREATE table empleado(
 	id_empleado INT PRIMARY KEY AUTO_INCREMENT,
 	nombre varchar(100) not null,
@@ -23,3 +24,4 @@ create table productos_prueba()
 
 ALTER TABLE producto_prueba ADD COLUNM precio varchar (10,2)
 drop table productos_prueba;
+
