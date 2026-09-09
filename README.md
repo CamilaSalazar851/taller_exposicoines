@@ -1,3 +1,4 @@
+```
 use pruebas;
 CREATE table empleado(
 	id_empleado INT PRIMARY KEY AUTO_INCREMENT,
